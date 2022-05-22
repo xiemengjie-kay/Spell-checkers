@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../provided/Set.hpp
+
+../provided/StringHashing.hpp
+string
+-
+
+/home/ics46/projects/proj4/core/HashSet.hpp
+functional
+-
+Set.hpp
+/home/ics46/projects/proj4/core/Set.hpp
+algorithm
+-
+
+/home/ics46/projects/proj4/core/WordChecker.cpp
+WordChecker.hpp
+/home/ics46/projects/proj4/core/WordChecker.hpp
+HashSet.hpp
+/home/ics46/projects/proj4/core/HashSet.hpp
+StringHashing.hpp
+/home/ics46/projects/proj4/core/StringHashing.hpp
+
+/home/ics46/projects/proj4/core/WordChecker.hpp
+string
+-
+vector
+-
+Set.hpp
+/home/ics46/projects/proj4/core/Set.hpp
+

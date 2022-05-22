@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../core/SkipListSet.hpp
+memory
+-
+optional
+-
+random
+-
+Set.hpp
+../core/Set.hpp
+
+../provided/Set.hpp
+
+/home/ics46/projects/proj4/gtest/SkipListSet_SanityCheckTests.cpp
+memory
+-
+string
+-
+gtest/gtest.h
+-
+SkipListSet.hpp
+/home/ics46/projects/proj4/gtest/SkipListSet.hpp
+
